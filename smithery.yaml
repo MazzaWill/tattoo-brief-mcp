@@ -1,0 +1,8 @@
+# Legacy Smithery stdio config (current Smithery publishing uses an MCPB bundle: see server.mcpb / manifest.json)
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['dist/index.js'] })

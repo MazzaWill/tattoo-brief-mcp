@@ -1,0 +1,18 @@
+{
+  "manifest_version": "0.3",
+  "name": "tattoo-brief-mcp",
+  "display_name": "Tattoo Brief MCP",
+  "version": "0.1.0",
+  "description": "Deterministic tools for planning a tattoo: artist briefs, small-size legibility checks, and AI line-art prompts.",
+  "author": { "name": "Lena Hart", "email": "support@tatany.app", "url": "https://tatany.app" },
+  "homepage": "https://tatany.app",
+  "license": "MIT",
+  "keywords": ["tattoo", "line-art", "prompt", "design"],
+  "server": { "type": "node", "entry_point": "dist/index.js", "mcp_config": { "command": "node", "args": ["${__dirname}/dist/index.js"] } },
+  "tools": [
+    { "name": "build_tattoo_brief", "description": "Turn an idea, style, placement and size into a brief for a tattoo artist." },
+    { "name": "check_small_size_legibility", "description": "Heuristic blur-risk check for details at a given size (not a guarantee)." },
+    { "name": "line_art_prompt", "description": "Write a clean line-art prompt for an AI tattoo generator." }
+  ],
+  "compatibility": { "runtimes": { "node": ">=18" } }
+}
