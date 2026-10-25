@@ -2,6 +2,7 @@
 
 Official MCP Registry: `io.github.MazzaWill/tattoo-brief-mcp` · Also on [Smithery](https://smithery.ai/server/eraplug/tattoo-brief-mcp) and [Glama](https://glama.ai/mcp/servers/Stark-Will/tattoo-brief-mcp).
 
+Related Tatany assets: [website](https://tatany.app) · [AI tattoo generator](https://tatany.app/ai-tattoo-generator) · [YouTube](https://www.youtube.com/@tatanyapp) · [itch.io flash pack](https://lenahart.itch.io/tattoo-flash-line-art-pack) · [Hugging Face probes](https://huggingface.co/datasets/yuzhucong/tattoo-probes) · [Pinterest board](https://www.pinterest.com/lenahart_ink/tattoo-flash-line-art/)
 
 A small [Model Context Protocol](https://modelcontextprotocol.io) server that helps you plan a tattoo before you talk to an artist. It runs locally over stdio, needs no API keys, and every tool is deterministic (same input, same output).
 
