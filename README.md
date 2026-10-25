@@ -1,5 +1,8 @@
 # tattoo-brief-mcp
 
+Official MCP Registry: `io.github.MazzaWill/tattoo-brief-mcp` · Also on [Smithery](https://smithery.ai/server/eraplug/tattoo-brief-mcp) and [Glama](https://glama.ai/mcp/servers/Stark-Will/tattoo-brief-mcp).
+
+
 A small [Model Context Protocol](https://modelcontextprotocol.io) server that helps you plan a tattoo before you talk to an artist. It runs locally over stdio, needs no API keys, and every tool is deterministic (same input, same output).
 
 Maintained by Lena Hart (ZheLogic, LLC). Homepage: https://tatany.app

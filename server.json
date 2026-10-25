@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MazzaWill/tattoo-brief-mcp",
+  "title": "Tattoo Brief MCP",
+  "description": "Deterministic MCP tools for tattoo briefs, small-size legibility checks, and line-art prompts.",
+  "repository": {
+    "url": "https://github.com/MazzaWill/tattoo-brief-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://tatany.app",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/MazzaWill/tattoo-brief-mcp/releases/download/v0.1.0/server.mcpb",
+      "fileSha256": "531d8867fd2ce7d481ed112224d067266fa2eb19b1c08abc1efa3921290aac12",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
